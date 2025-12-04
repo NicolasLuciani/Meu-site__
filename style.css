@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixa-login {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 480px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    width: 320px;
+
+}
+
+.titulo_login {
+    background-color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.caixa-texto_login1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    border: solid;
+    border-color: aqua;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.caixa-texto_login1:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    border: solid;
+    border-color: rgb(15, 147, 255);
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.caixa-texto_login2 {
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: solid;
+    border-color: aqua;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+.caixa-texto_login2:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    border: solid;
+    border-color: rgb(15, 147, 255);
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+.entrar-btn {
+    text-align: center;
+    background-color: rgb(0, 217, 255);
+    border-radius: 16px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.entrar-btn:hover {
+    text-align: center;
+    background-color: rgb(95, 229, 252);
+    cursor: pointer;
+    border-radius: 16px;
+    border: none;
+    padding: 10px 20px;
+}
+
