@@ -56,7 +56,8 @@ body {
 }
 
 .entrar-btn:hover {
-    background-color: rgb(95, 229, 252);
+    background-color: rgb(15, 147, 255);
+    color: white;
 }
 
 .link-cadastro {
