@@ -9,12 +9,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* melhor que height */
-    padding: 20px; /* evita que encoste na borda do celular */
+    min-height: 100vh;
+    padding: 20px;
     font-family: Arial, sans-serif;
 }
 
-/* AQUI COMEÇA A RESPONSIVIDADE DE VERDADE */
 .caixa-login {
     display: flex;
     flex-direction: column;
@@ -25,13 +24,13 @@ body {
     border-radius: 12px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 
-    width: 100%; 
-    max-width: 350px; /* antes era fixo em 320px */
-    gap: 15px;
+    width: 100%;
+    max-width: 350px;
+    gap: 22px; /* 🔥 GAP MAIOR AQUI */
 }
 
 .titulo_login {
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* reduzido para balancear o novo gap */
 }
 
 .caixa-texto {
@@ -60,21 +59,22 @@ body {
 }
 
 .link-cadastro {
-    margin-top: 10px;
     font-size: 0.9rem;
     color: rgb(0, 100, 255);
     text-decoration: none;
+    margin-top: 5px;
 }
 
 .link-cadastro:hover {
     text-decoration: underline;
 }
 
-/* 🔥 Responsividade específica para telas MUITO pequenas */
+/* 🔥 Responsividade em telas menores */
 @media (max-width: 400px) {
     .caixa-login {
         padding: 25px;
         border-radius: 10px;
+        gap: 18px; /* 🔥 Gap menor no celular para não exagerar */
     }
 
     .caixa-texto,
@@ -87,4 +87,3 @@ body {
         font-size: 1.3rem;
     }
 }
-
