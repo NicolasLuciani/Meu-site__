@@ -30,7 +30,7 @@ body {
 }
 
 .titulo_login {
-    margin-bottom: 10px; /* reduzido para balancear o novo gap */
+    margin-bottom: 25px; /* reduzido para balancear o novo gap */
 }
 
 .caixa-texto {
